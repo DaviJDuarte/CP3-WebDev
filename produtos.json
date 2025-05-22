@@ -1,0 +1,64 @@
+{
+  "produtos": [
+    {
+      "nome": "PlayStation 5",
+      "preco": 5000,
+      "categoria": "Jogos",
+      "disponibilidade": true
+    },
+    {
+      "nome": "Nintendo Switch 2",
+      "preco": 4500,
+      "categoria": "Jogos",
+      "disponibilidade": false
+    },
+    {
+      "nome": "Xbox Series X",
+      "preco": 4800,
+      "categoria": "Jogos",
+      "disponibilidade": true
+    },
+    {
+      "nome": "Smart TV Samsung 55\"",
+      "preco": 3200,
+      "categoria": "Eletrônicos",
+      "disponibilidade": true
+    },
+    {
+      "nome": "MacBook Pro M2",
+      "preco": 12000,
+      "categoria": "Informática",
+      "disponibilidade": true
+    },
+    {
+      "nome": "Headphone Bluetooth Sony",
+      "preco": 800,
+      "categoria": "Acessórios",
+      "disponibilidade": false
+    },
+    {
+      "nome": "Aspirador Robô Xiaomi",
+      "preco": 1500,
+      "categoria": "Casa",
+      "disponibilidade": true
+    },
+    {
+      "nome": "iPhone 14 Pro",
+      "preco": 8500,
+      "categoria": "Eletrônicos",
+      "disponibilidade": true
+    },
+    {
+      "nome": "Monitor Gamer 144Hz",
+      "preco": 2200,
+      "categoria": "Informática",
+      "disponibilidade": false
+    },
+    {
+      "nome": "Teclado Mecânico RGB",
+      "preco": 450,
+      "categoria": "Acessórios",
+      "disponibilidade": true
+    }
+  ]
+}

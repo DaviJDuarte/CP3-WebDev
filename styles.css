@@ -1,0 +1,118 @@
+.hide {
+    display: none !important;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+button {
+    background-color: dodgerblue;
+    border-radius: .6rem;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 0.6rem;
+    border-radius: .6rem;
+    border: 1px solid #ccc;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+#container {
+    margin-top: 6vh;
+    display: flex;
+    gap: 2rem;
+}
+
+#container-produtos {
+    min-width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#filtrar {
+    padding: 0.6rem;
+}
+
+.produto {
+    background-color: #f9f9f9;
+    border-radius: .6rem;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    transition: 0.2s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.adicionar-carrinho {
+    background-color: green;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+    align-self: end;
+    cursor: pointer;
+}
+
+.adicionar-carrinho:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: fit-content;
+}
+
+.toast {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    border-radius: .6rem;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.close-toast {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
