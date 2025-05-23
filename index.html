@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button id="listar-produtos"></button>
+        <div id="container">
+            <form id="produtos-form">
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="">Todos</option>
+                    <option value="Jogos">Jogos</option>
+                    <option value="Eletrônicos">Eletrônicos</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Acessórios">Acessórios</option>
+                    <option value="Casa">Casa</option>
+                </select>
+
+                <label for="ordenar">Ordenar</label>
+                <select name="ordenar" id="ordenar">
+                    <option value="">Padrão</option>
+                    <option value="preco-cres">Preço - Crescente</option>
+                    <option value="preco-decr">Preço - Decrescente</option>
+                    <option value="alfa-cres">Alfabético - Crescente</option>
+                    <option value="alfa-decr">Alfabético - Decrescente</option>
+                    <option value="disponibilidade">Disponibilidade</option>
+                </select>
+
+                <div>
+                    <input type="checkbox" name="disponibilidade" id="disponibilidade">
+                    <label id="disponibilidade-label" for="disponibilidade">Apenas Disponíveis</label>
+                </div>
+
+                <button type="submit" id="filtrar">Filtrar</button>
+            </form>
+
+            <div id="container-produtos"></div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
